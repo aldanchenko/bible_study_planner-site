@@ -411,6 +411,8 @@ a:hover { color: var(--violet-dark); }
 .footer__links a:hover { color: #fff; }
 
 .footer__copy { font-size: 0.8rem; }
+.footer__copy a { color: rgba(255,255,255,.6); }
+.footer__copy a:hover { color: #fff; }
 
 /* ── Inner pages ── */
 .page-header {

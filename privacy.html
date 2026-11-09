@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — Bible Study Planner</title>
-  <meta name="description" content="How Bible Study Planner handles your data: everything stays on your device, with one narrowly scoped network request." />
+  <meta name="description" content="How Bible Study Planner handles your data: everything stays on your device or in your own iCloud, with one narrowly scoped network request." />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -26,7 +26,7 @@
   <div class="page-header">
     <div class="container">
       <h1>Privacy Policy</h1>
-      <p>Last updated: August 6, 2026</p>
+      <p>Last updated: November 9, 2026</p>
     </div>
   </div>
 
@@ -35,7 +35,7 @@
     <h2>The short version</h2>
     <div class="callout">
       <p>
-        Bible Study Planner has no accounts, no analytics, and no advertising. Everything you create — reading progress, notes, study material, and settings — is stored on your device and is never sent to us. We do not operate a server that receives your data.
+        Bible Study Planner has no accounts, no analytics, and no advertising. Everything you create — reading progress, notes, study material, and settings — is stored on your device and is never sent to us. If your device is signed in to iCloud, your reading progress is also kept in your own iCloud account so your other Apple devices can pick it up. We do not operate a server that receives your data.
       </p>
     </div>
 
@@ -48,9 +48,19 @@
     </ul>
     <p>This data lives in the app's own storage on your device. If you have iCloud device backup switched on, Apple may include it in your backup; that is governed by Apple's privacy policy, not ours. Deleting the app removes the data from your device.</p>
 
+    <h2>Syncing between your Apple devices</h2>
+    <p>If your device is signed in to iCloud, the app keeps a copy of your reading progress in iCloud's key-value storage, in your own Apple Account, so your other Apple devices signed in to the same account show the same progress. That copy holds:</p>
+    <ul>
+      <li>which chapters you have marked read on each plan, and when you last marked or unmarked each one;</li>
+      <li>which days you read;</li>
+      <li>your chosen plan, its start date, where you last left off, and how many times you have finished or started over each plan.</li>
+    </ul>
+    <p>Notes, study material, attachments, and all other settings are not synced; they stay on the device where you made them. The copy travels between your devices and Apple's iCloud and never passes through us — we cannot see, read, or delete it. Apple's privacy policy governs iCloud.</p>
+    <p>Sync is on by default. To stop it, switch off <strong>Sync reading progress</strong> in Settings → iCloud Sync; the app then neither reads nor writes that copy. What is already in iCloud stays in your account.</p>
+
     <h2>When the app goes online</h2>
     <p>When you save a link as study material, the app requests that web page and reads its <code>&lt;title&gt;</code> so it can fill in the title for you instead of making you type it. That request goes directly from your device to the website you chose to save. Like any web request, it reveals your IP address and approximate location to that website, along with the ordinary headers a request carries, such as the language your device is set to. It carries none of your notes, reading progress, or settings, and it happens only for links you save yourself.</p>
-    <p>Everything else in the app works offline. Two things that do touch the network are handled by Apple rather than by the app: a voluntary tip goes through Apple's StoreKit, and the occasional invitation to rate the app is displayed by iOS itself.</p>
+    <p>Everything else in the app works offline. Three things that do touch the network are handled by Apple rather than by the app: iCloud carries your reading progress between your devices, as described above; a voluntary tip goes through Apple's StoreKit; and the occasional invitation to rate the app is displayed by iOS itself.</p>
 
     <h2>What we do not do</h2>
     <ul>
@@ -78,12 +88,12 @@
     <p>When you use the iOS share sheet to send a link or a piece of text to Bible Study Planner, iOS hands that item to the app, which stores it on your device like anything else you create. It goes nowhere else. If the item is a link, the title lookup described above applies to it.</p>
 
     <h2>Your data is in your hands</h2>
-    <p>Because your data never leaves your device, you control it directly rather than by asking us for it:</p>
+    <p>Because your data never reaches us, you control it directly rather than by asking us for it:</p>
     <ul>
       <li><strong>See and change it</strong> — open any note or saved item in the app and edit it.</li>
       <li><strong>Delete it</strong> — remove individual notes and materials in the app, or delete the app to remove all of its data from your device.</li>
     </ul>
-    <p>The app has no export function; the data lives in the app's storage and travels with a device backup. There is no request to send us and no account to close, because we hold no copy of your data and cannot retrieve, restore, or delete it on your behalf. Data stays on your device for as long as the app is installed.</p>
+    <p>The app has no export function; the data lives in the app's storage and travels with a device backup. There is no request to send us and no account to close, because we hold no copy of your data and cannot retrieve, restore, or delete it on your behalf. Data stays on your device for as long as the app is installed. The synced copy of your reading progress stays in your iCloud account, as described above.</p>
 
     <h2>Children's privacy</h2>
     <p>The app is not directed at children, and it does not knowingly collect personal information from anyone, of any age. No personal information is required for the app to work.</p>
@@ -109,6 +119,7 @@
       <p class="footer__disclaimer">Unofficial app. Not affiliated with, authorized by, or endorsed by Jehovah's Witnesses, Watch Tower Bible and Tract Society of Pennsylvania, Watchtower Bible and Tract Society of New York, Inc., JW Library, or any related entity. All trademarks are the property of their respective owners and are used here only to describe what the app works with.</p>
       <p class="footer__disclaimer">Bible quotations shown in the app and in the screenshots on this site are from the New World Translation of the Holy Scriptures.</p>
       <p class="footer__copy">&copy; 2026 Bible Study Planner</p>
+      <p class="footer__copy">Made by <a href="https://alex-d-code.github.io/">alex.d.code</a></p>
     </div>
   </footer>
 
